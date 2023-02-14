@@ -35,21 +35,21 @@ namespace Student_Management_System
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.lbl_Username = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pic_Computing = new System.Windows.Forms.PictureBox();
+            this.pic_Humanities = new System.Windows.Forms.PictureBox();
             this.label10 = new System.Windows.Forms.Label();
+            this.pic_Business = new System.Windows.Forms.PictureBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.pic_Engineering = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.pic_Archi = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.pic_Computing = new System.Windows.Forms.PictureBox();
-            this.pic_Humanities = new System.Windows.Forms.PictureBox();
-            this.pic_Business = new System.Windows.Forms.PictureBox();
-            this.pic_Engineering = new System.Windows.Forms.PictureBox();
-            this.pic_Archi = new System.Windows.Forms.PictureBox();
             this.pic_Head = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -106,7 +106,7 @@ namespace Student_Management_System
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Silver;
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.pic_Computing);
             this.panel1.Controls.Add(this.pic_Humanities);
             this.panel1.Controls.Add(this.label10);
@@ -122,12 +122,32 @@ namespace Student_Management_System
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label3);
-            this.panel1.Location = new System.Drawing.Point(13, 306);
+            this.panel1.Location = new System.Drawing.Point(12, 283);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 6, 3, 3);
             this.panel1.Name = "panel1";
             this.panel1.Padding = new System.Windows.Forms.Padding(0, 5, 0, 10);
             this.panel1.Size = new System.Drawing.Size(798, 163);
             this.panel1.TabIndex = 8;
+            // 
+            // pic_Computing
+            // 
+            this.pic_Computing.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pic_Computing.Location = new System.Drawing.Point(352, 11);
+            this.pic_Computing.Name = "pic_Computing";
+            this.pic_Computing.Size = new System.Drawing.Size(100, 100);
+            this.pic_Computing.TabIndex = 20;
+            this.pic_Computing.TabStop = false;
+            this.pic_Computing.Click += new System.EventHandler(this.pic_Computing_Click);
+            // 
+            // pic_Humanities
+            // 
+            this.pic_Humanities.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pic_Humanities.Location = new System.Drawing.Point(37, 8);
+            this.pic_Humanities.Name = "pic_Humanities";
+            this.pic_Humanities.Size = new System.Drawing.Size(100, 100);
+            this.pic_Humanities.TabIndex = 19;
+            this.pic_Humanities.TabStop = false;
+            this.pic_Humanities.Click += new System.EventHandler(this.pic_Humanities_Click);
             // 
             // label10
             // 
@@ -139,6 +159,16 @@ namespace Student_Management_System
             this.label10.Size = new System.Drawing.Size(65, 16);
             this.label10.TabIndex = 18;
             this.label10.Text = "Faculty of";
+            // 
+            // pic_Business
+            // 
+            this.pic_Business.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pic_Business.Location = new System.Drawing.Point(655, 8);
+            this.pic_Business.Name = "pic_Business";
+            this.pic_Business.Size = new System.Drawing.Size(100, 100);
+            this.pic_Business.TabIndex = 7;
+            this.pic_Business.TabStop = false;
+            this.pic_Business.Click += new System.EventHandler(this.pic_Business_Click);
             // 
             // label9
             // 
@@ -162,6 +192,16 @@ namespace Student_Management_System
             this.label8.TabIndex = 16;
             this.label8.Text = "Faculty of";
             // 
+            // pic_Engineering
+            // 
+            this.pic_Engineering.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pic_Engineering.Location = new System.Drawing.Point(199, 11);
+            this.pic_Engineering.Name = "pic_Engineering";
+            this.pic_Engineering.Size = new System.Drawing.Size(100, 100);
+            this.pic_Engineering.TabIndex = 4;
+            this.pic_Engineering.TabStop = false;
+            this.pic_Engineering.Click += new System.EventHandler(this.pic_Engineering_Click);
+            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -183,6 +223,16 @@ namespace Student_Management_System
             this.label6.Size = new System.Drawing.Size(65, 16);
             this.label6.TabIndex = 14;
             this.label6.Text = "Faculty of";
+            // 
+            // pic_Archi
+            // 
+            this.pic_Archi.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pic_Archi.Location = new System.Drawing.Point(509, 11);
+            this.pic_Archi.Name = "pic_Archi";
+            this.pic_Archi.Size = new System.Drawing.Size(100, 100);
+            this.pic_Archi.TabIndex = 6;
+            this.pic_Archi.TabStop = false;
+            this.pic_Archi.Click += new System.EventHandler(this.pic_Archi_Click);
             // 
             // label5
             // 
@@ -242,64 +292,8 @@ namespace Student_Management_System
             this.label3.TabIndex = 11;
             this.label3.Text = "Computing";
             // 
-            // pic_Computing
-            // 
-            this.pic_Computing.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pic_Computing.Image = global::Student_Management_System.Properties.Resources._00301;
-            this.pic_Computing.Location = new System.Drawing.Point(352, 11);
-            this.pic_Computing.Name = "pic_Computing";
-            this.pic_Computing.Size = new System.Drawing.Size(100, 100);
-            this.pic_Computing.TabIndex = 20;
-            this.pic_Computing.TabStop = false;
-            this.pic_Computing.Click += new System.EventHandler(this.pic_Computing_Click);
-            // 
-            // pic_Humanities
-            // 
-            this.pic_Humanities.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pic_Humanities.Image = global::Student_Management_System.Properties.Resources._00282;
-            this.pic_Humanities.Location = new System.Drawing.Point(37, 8);
-            this.pic_Humanities.Name = "pic_Humanities";
-            this.pic_Humanities.Size = new System.Drawing.Size(100, 100);
-            this.pic_Humanities.TabIndex = 19;
-            this.pic_Humanities.TabStop = false;
-            this.pic_Humanities.Click += new System.EventHandler(this.pic_Humanities_Click);
-            // 
-            // pic_Business
-            // 
-            this.pic_Business.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pic_Business.Image = global::Student_Management_System.Properties.Resources._0032;
-            this.pic_Business.Location = new System.Drawing.Point(655, 8);
-            this.pic_Business.Name = "pic_Business";
-            this.pic_Business.Size = new System.Drawing.Size(100, 100);
-            this.pic_Business.TabIndex = 7;
-            this.pic_Business.TabStop = false;
-            this.pic_Business.Click += new System.EventHandler(this.pic_Business_Click);
-            // 
-            // pic_Engineering
-            // 
-            this.pic_Engineering.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pic_Engineering.Image = global::Student_Management_System.Properties.Resources._0029;
-            this.pic_Engineering.Location = new System.Drawing.Point(199, 11);
-            this.pic_Engineering.Name = "pic_Engineering";
-            this.pic_Engineering.Size = new System.Drawing.Size(100, 100);
-            this.pic_Engineering.TabIndex = 4;
-            this.pic_Engineering.TabStop = false;
-            this.pic_Engineering.Click += new System.EventHandler(this.pic_Engineering_Click);
-            // 
-            // pic_Archi
-            // 
-            this.pic_Archi.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pic_Archi.Image = global::Student_Management_System.Properties.Resources._0031;
-            this.pic_Archi.Location = new System.Drawing.Point(509, 11);
-            this.pic_Archi.Name = "pic_Archi";
-            this.pic_Archi.Size = new System.Drawing.Size(100, 100);
-            this.pic_Archi.TabIndex = 6;
-            this.pic_Archi.TabStop = false;
-            this.pic_Archi.Click += new System.EventHandler(this.pic_Archi_Click);
-            // 
             // pic_Head
             // 
-            this.pic_Head.Image = global::Student_Management_System.Properties.Resources.f1;
             this.pic_Head.Location = new System.Drawing.Point(0, 5);
             this.pic_Head.Name = "pic_Head";
             this.pic_Head.Size = new System.Drawing.Size(823, 340);

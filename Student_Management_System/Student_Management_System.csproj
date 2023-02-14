@@ -160,6 +160,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Registration Desk.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -250,11 +255,6 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -343,6 +343,9 @@
     <None Include="Resources\f1.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Desktop - 1 %282%29.png" />
+    <None Include="Resources\Desktop - 1 %281%29.png" />
+    <None Include="Resources\Desktop - 1.png" />
     <Content Include="Resources\Header\11.png" />
     <Content Include="Resources\Header\22.png" />
     <Content Include="Resources\Header\33.png" />
