@@ -178,6 +178,12 @@
     <Compile Include="User Login.Designer.cs">
       <DependentUpon>User Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="User Profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User Profile.Designer.cs">
+      <DependentUpon>User Profile.cs</DependentUpon>
+    </Compile>
     <Compile Include="View Degree Programs.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -335,6 +341,23 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\f1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Header\11.png" />
+    <Content Include="Resources\Header\22.png" />
+    <Content Include="Resources\Header\33.png" />
+    <Content Include="Resources\Header\44.png" />
+    <Content Include="Resources\Header\55.png" />
+    <Content Include="Resources\Header\66.png" />
+    <Content Include="Resources\Header\77.png" />
+    <Content Include="Resources\Home\f1.jpg" />
+    <Content Include="Resources\Home\f2 %282%29.png" />
+    <Content Include="Resources\Home\f3.png" />
+    <Content Include="Resources\Home\f4.png" />
+    <Content Include="Resources\Home\f5.png" />
+    <Content Include="Resources\Home\f6.jpg" />
+    <Content Include="Resources\Home\f7.jpg" />
+    <Content Include="Resources\Home\f8.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

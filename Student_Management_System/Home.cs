@@ -36,7 +36,7 @@ namespace Student_Management_System
         private void Home_Load(object sender, EventArgs e)
         {
             //images slideshow with the timer set to 4500
-            images = Directory.GetFiles(@"D:\AnalystProgrammer_PracticalTest\AnalystProgrammer_PracticalTest\Resources\IMG");
+            images = Directory.GetFiles(@"D:\Student_Management_System\Student_Management_System\Resources\Home");
             Timer T = new Timer();
             T.Interval = 4500;
             T.Tick += new EventHandler(PlayTime);
