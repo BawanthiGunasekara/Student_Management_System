@@ -343,6 +343,8 @@
     <None Include="Resources\f1.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Desktop - 1 %282%292.png" />
+    <None Include="Resources\Desktop - 1 %282%291.png" />
     <None Include="Resources\Desktop - 1 %282%29.png" />
     <None Include="Resources\Desktop - 1 %281%29.png" />
     <None Include="Resources\Desktop - 1.png" />
