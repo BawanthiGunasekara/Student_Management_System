@@ -107,6 +107,7 @@ namespace Student_Management_System
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.BackgroundImage = global::Student_Management_System.Properties.Resources.Desktop___1__2_4;
             this.panel1.Controls.Add(this.pic_Computing);
             this.panel1.Controls.Add(this.pic_Humanities);
             this.panel1.Controls.Add(this.label10);
@@ -132,6 +133,7 @@ namespace Student_Management_System
             // pic_Computing
             // 
             this.pic_Computing.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pic_Computing.Image = global::Student_Management_System.Properties.Resources._00303;
             this.pic_Computing.Location = new System.Drawing.Point(352, 11);
             this.pic_Computing.Name = "pic_Computing";
             this.pic_Computing.Size = new System.Drawing.Size(100, 100);
@@ -142,6 +144,7 @@ namespace Student_Management_System
             // pic_Humanities
             // 
             this.pic_Humanities.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pic_Humanities.Image = global::Student_Management_System.Properties.Resources._00284;
             this.pic_Humanities.Location = new System.Drawing.Point(37, 8);
             this.pic_Humanities.Name = "pic_Humanities";
             this.pic_Humanities.Size = new System.Drawing.Size(100, 100);
@@ -154,7 +157,7 @@ namespace Student_Management_System
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(681, 114);
+            this.label10.Location = new System.Drawing.Point(687, 117);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(65, 16);
             this.label10.TabIndex = 18;
@@ -163,7 +166,8 @@ namespace Student_Management_System
             // pic_Business
             // 
             this.pic_Business.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pic_Business.Location = new System.Drawing.Point(655, 8);
+            this.pic_Business.Image = global::Student_Management_System.Properties.Resources._00323;
+            this.pic_Business.Location = new System.Drawing.Point(661, 11);
             this.pic_Business.Name = "pic_Business";
             this.pic_Business.Size = new System.Drawing.Size(100, 100);
             this.pic_Business.TabIndex = 7;
@@ -195,6 +199,7 @@ namespace Student_Management_System
             // pic_Engineering
             // 
             this.pic_Engineering.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pic_Engineering.Image = global::Student_Management_System.Properties.Resources._00293;
             this.pic_Engineering.Location = new System.Drawing.Point(199, 11);
             this.pic_Engineering.Name = "pic_Engineering";
             this.pic_Engineering.Size = new System.Drawing.Size(100, 100);
@@ -227,6 +232,7 @@ namespace Student_Management_System
             // pic_Archi
             // 
             this.pic_Archi.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pic_Archi.Image = global::Student_Management_System.Properties.Resources._00313;
             this.pic_Archi.Location = new System.Drawing.Point(509, 11);
             this.pic_Archi.Name = "pic_Archi";
             this.pic_Archi.Size = new System.Drawing.Size(100, 100);
@@ -239,7 +245,7 @@ namespace Student_Management_System
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(676, 140);
+            this.label5.Location = new System.Drawing.Point(682, 143);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(71, 16);
             this.label5.TabIndex = 13;
@@ -294,6 +300,7 @@ namespace Student_Management_System
             // 
             // pic_Head
             // 
+            this.pic_Head.Image = global::Student_Management_System.Properties.Resources.f11;
             this.pic_Head.Location = new System.Drawing.Point(0, 5);
             this.pic_Head.Name = "pic_Head";
             this.pic_Head.Size = new System.Drawing.Size(823, 340);

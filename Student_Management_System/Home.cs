@@ -69,10 +69,7 @@ namespace Student_Management_System
             this.Hide();
             Humanities_and_Sciences humanities = new Humanities_and_Sciences();
             humanities.Show();
-
         }
-
-
 
         void PlayTime(object sender, EventArgs e)
         {
