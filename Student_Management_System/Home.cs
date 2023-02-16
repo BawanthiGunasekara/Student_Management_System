@@ -19,18 +19,11 @@ namespace Student_Management_System
         //set the counter to 0
         int counter = 0;
 
-        public string UserName { get; }
-
-        public Home()
+        public Home(string userName)
         {
             InitializeComponent();
             //set the username used to log in to the label
-            lbl_Username.Text = "Hii.. " + (UserName);
-        }
-
-        public Home(string userName)
-        {
-            UserName = userName;
+            lbl_Username.Text = "Hii.. " + (userName);
         }
 
         private void Home_Load(object sender, EventArgs e)
@@ -109,6 +102,11 @@ namespace Student_Management_System
             this.Hide();
             Business business = new Business();
             business.Show();
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
         }
     }
 }

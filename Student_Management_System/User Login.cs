@@ -34,7 +34,7 @@ namespace Student_Management_System
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btn_Login_Click(object sender, EventArgs e)
         {
             //make a connection with the database
             SqlConnection connect = new SqlConnection(@"Data Source=NGHQ-IT-028\MSSQLSERVER2012;Initial Catalog=Student_Database;User ID=sa;Password=");
@@ -84,7 +84,6 @@ namespace Student_Management_System
                     //Empty value of the textbox
                     txt_Username.Text = string.Empty;
                     txt_Password.Text = string.Empty;
-
                 }
             }
         }
