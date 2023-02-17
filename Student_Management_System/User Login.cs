@@ -19,6 +19,13 @@ namespace Student_Management_System
         public User_Login()
         {
             InitializeComponent();
+
+            //set the colour of the textboxes
+            this.txt_Username.BackColor = Color.White;
+            this.txt_Password.BackColor = Color.White;
+
+            
+
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -31,7 +38,7 @@ namespace Student_Management_System
 
         private void User_Login_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void btn_Login_Click(object sender, EventArgs e)
@@ -43,7 +50,7 @@ namespace Student_Management_System
             SqlDataAdapter cmd1 = new SqlDataAdapter();
             connect.Open();
 
-            if (txt_Username.Text == "Admin")
+            if (txt_Username.Text == "ADMIN" && txt_Password.Text == "admin")
             {
                 //Directs to the Registration Form
                 this.Hide();
@@ -86,6 +93,11 @@ namespace Student_Management_System
                     txt_Password.Text = string.Empty;
                 }
             }
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -214,6 +214,7 @@ namespace Student_Management_System
             this.Controls.Add(this.panel1);
             this.Name = "Registration_Desk";
             this.Text = "Registration_Desk";
+            this.Load += new System.EventHandler(this.Registration_Desk_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pic_Guest)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pic_Student)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pic_Lecturer)).EndInit();

@@ -48,5 +48,10 @@ namespace Student_Management_System
             User_Login register = new User_Login();
             register.Show();
         }
+
+        private void Registration_Desk_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

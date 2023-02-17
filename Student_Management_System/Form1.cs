@@ -10,19 +10,14 @@ using System.Windows.Forms;
 
 namespace Student_Management_System
 {
-    public partial class View_Degree_Programs : Form
+    public partial class Form1 : Form
     {
-        public View_Degree_Programs()
+        public Form1()
         {
             InitializeComponent();
         }
 
-        private void View_Degree_Programs_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox4_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
 
         }
