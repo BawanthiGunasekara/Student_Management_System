@@ -290,10 +290,10 @@ namespace Student_Management_System
             this.cmb_Semester.Size = new System.Drawing.Size(60, 21);
             this.cmb_Semester.TabIndex = 24;
             // 
-            // txt_Username
+            // txt_usrname
             // 
             this.txt_Username.Location = new System.Drawing.Point(187, 301);
-            this.txt_Username.Name = "txt_Username";
+            this.txt_Username.Name = "txt_usrname";
             this.txt_Username.Size = new System.Drawing.Size(269, 20);
             this.txt_Username.TabIndex = 25;
             // 

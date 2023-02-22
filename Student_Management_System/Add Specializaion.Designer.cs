@@ -41,28 +41,28 @@ namespace Student_Management_System
             // cmb_Dname
             // 
             this.cmb_Dname.FormattingEnabled = true;
-            this.cmb_Dname.Location = new System.Drawing.Point(314, 67);
+            this.cmb_Dname.Location = new System.Drawing.Point(344, 125);
             this.cmb_Dname.Name = "cmb_Dname";
             this.cmb_Dname.Size = new System.Drawing.Size(211, 21);
             this.cmb_Dname.TabIndex = 0;
             // 
             // txt_Specialization
             // 
-            this.txt_Specialization.Location = new System.Drawing.Point(314, 112);
+            this.txt_Specialization.Location = new System.Drawing.Point(344, 170);
             this.txt_Specialization.Name = "txt_Specialization";
             this.txt_Specialization.Size = new System.Drawing.Size(211, 20);
             this.txt_Specialization.TabIndex = 1;
             // 
             // tzt_Fee
             // 
-            this.tzt_Fee.Location = new System.Drawing.Point(314, 161);
+            this.tzt_Fee.Location = new System.Drawing.Point(344, 219);
             this.tzt_Fee.Name = "tzt_Fee";
             this.tzt_Fee.Size = new System.Drawing.Size(211, 20);
             this.tzt_Fee.TabIndex = 2;
             // 
             // btn_Save
             // 
-            this.btn_Save.Location = new System.Drawing.Point(450, 212);
+            this.btn_Save.Location = new System.Drawing.Point(480, 270);
             this.btn_Save.Name = "btn_Save";
             this.btn_Save.Size = new System.Drawing.Size(75, 23);
             this.btn_Save.TabIndex = 3;
@@ -74,7 +74,7 @@ namespace Student_Management_System
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(185, 67);
+            this.label1.Location = new System.Drawing.Point(215, 125);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(108, 20);
             this.label1.TabIndex = 4;
@@ -84,7 +84,7 @@ namespace Student_Management_System
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(188, 112);
+            this.label2.Location = new System.Drawing.Point(218, 170);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(107, 20);
             this.label2.TabIndex = 5;
@@ -94,7 +94,7 @@ namespace Student_Management_System
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(188, 167);
+            this.label3.Location = new System.Drawing.Point(218, 225);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(37, 20);
             this.label3.TabIndex = 6;
@@ -114,6 +114,7 @@ namespace Student_Management_System
             this.Controls.Add(this.cmb_Dname);
             this.Name = "Add_Specializaion";
             this.Text = "Add_Specializaion";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Add_Specializaion_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

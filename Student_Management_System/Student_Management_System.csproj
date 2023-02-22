@@ -355,6 +355,37 @@
     <None Include="Resources\f1.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Group 9.png" />
+    <None Include="Resources\101 %281%291.jpg" />
+    <None Include="Resources\Group 81.png" />
+    <None Include="Resources\Group 8.png" />
+    <None Include="Resources\Group 7 %281%293.png" />
+    <None Include="Resources\Group 7 %281%292.png" />
+    <None Include="Resources\Group 7 %281%291.png" />
+    <None Include="Resources\Group 7 %281%29.png" />
+    <None Include="Resources\Group 1 %2824%29.png" />
+    <None Include="Resources\Frame 1.png" />
+    <None Include="Resources\101 %281%29.jpg" />
+    <None Include="Resources\101.jpg" />
+    <None Include="Resources\100.png" />
+    <None Include="Resources\Group 1 %2823%29.png" />
+    <None Include="Resources\add-user %283%29.png" />
+    <None Include="Resources\new.png" />
+    <None Include="Resources\unauthorized-person.png" />
+    <None Include="Resources\conference.png" />
+    <None Include="Resources\graduated.png" />
+    <None Include="Resources\add-user %282%29.png" />
+    <None Include="Resources\add-user %281%29.png" />
+    <None Include="Resources\ezgif.com-webp-to-png %285%291.png" />
+    <None Include="Resources\ezgif.com-webp-to-png %285%29.png" />
+    <None Include="Resources\Group 1 %2822%29.png" />
+    <None Include="Resources\Bg_1.png" />
+    <None Include="Resources\Group 1 %2821%29.png" />
+    <None Include="Resources\Rectangle 2.png" />
+    <None Include="Resources\Rectangle 1 %281%291.png" />
+    <None Include="Resources\Rectangle 1 %281%29.png" />
+    <None Include="Resources\Rectangle 3 %281%291.png" />
+    <None Include="Resources\Group 1 %2820%291.png" />
     <None Include="Resources\Group 1 %2820%29.png" />
     <None Include="Resources\01 %281%29.png" />
     <None Include="Resources\Rectangle 3 %281%29.png" />

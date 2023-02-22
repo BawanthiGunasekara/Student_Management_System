@@ -56,10 +56,10 @@ namespace Student_Management_System
             // pic_Guest
             // 
             this.pic_Guest.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pic_Guest.Image = global::Student_Management_System.Properties.Resources._00311;
-            this.pic_Guest.Location = new System.Drawing.Point(22, 15);
+            this.pic_Guest.Image = global::Student_Management_System.Properties.Resources.add_user__3_;
+            this.pic_Guest.Location = new System.Drawing.Point(14, 15);
             this.pic_Guest.Name = "pic_Guest";
-            this.pic_Guest.Size = new System.Drawing.Size(110, 119);
+            this.pic_Guest.Size = new System.Drawing.Size(128, 128);
             this.pic_Guest.TabIndex = 0;
             this.pic_Guest.TabStop = false;
             this.pic_Guest.Click += new System.EventHandler(this.pic_Guest_Click);
@@ -67,10 +67,10 @@ namespace Student_Management_System
             // Pic_Student
             // 
             this.Pic_Student.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Pic_Student.Image = global::Student_Management_System.Properties.Resources._0033;
-            this.Pic_Student.Location = new System.Drawing.Point(22, 15);
+            this.Pic_Student.Image = global::Student_Management_System.Properties.Resources.graduated;
+            this.Pic_Student.Location = new System.Drawing.Point(14, 15);
             this.Pic_Student.Name = "Pic_Student";
-            this.Pic_Student.Size = new System.Drawing.Size(110, 119);
+            this.Pic_Student.Size = new System.Drawing.Size(128, 128);
             this.Pic_Student.TabIndex = 1;
             this.Pic_Student.TabStop = false;
             this.Pic_Student.Click += new System.EventHandler(this.Pic_Student_Click);
@@ -78,10 +78,10 @@ namespace Student_Management_System
             // Pic_Lecturer
             // 
             this.Pic_Lecturer.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Pic_Lecturer.Image = global::Student_Management_System.Properties.Resources._0035;
-            this.Pic_Lecturer.Location = new System.Drawing.Point(24, 15);
+            this.Pic_Lecturer.Image = global::Student_Management_System.Properties.Resources.conference;
+            this.Pic_Lecturer.Location = new System.Drawing.Point(15, 18);
             this.Pic_Lecturer.Name = "Pic_Lecturer";
-            this.Pic_Lecturer.Size = new System.Drawing.Size(110, 119);
+            this.Pic_Lecturer.Size = new System.Drawing.Size(128, 128);
             this.Pic_Lecturer.TabIndex = 2;
             this.Pic_Lecturer.TabStop = false;
             this.Pic_Lecturer.Click += new System.EventHandler(this.Pic_Lecturer_Click);
@@ -89,10 +89,10 @@ namespace Student_Management_System
             // Pic_Admin
             // 
             this.Pic_Admin.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Pic_Admin.Image = global::Student_Management_System.Properties.Resources._00321;
-            this.Pic_Admin.Location = new System.Drawing.Point(25, 13);
+            this.Pic_Admin.Image = global::Student_Management_System.Properties.Resources.unauthorized_person;
+            this.Pic_Admin.Location = new System.Drawing.Point(13, 15);
             this.Pic_Admin.Name = "Pic_Admin";
-            this.Pic_Admin.Size = new System.Drawing.Size(110, 119);
+            this.Pic_Admin.Size = new System.Drawing.Size(128, 128);
             this.Pic_Admin.TabIndex = 3;
             this.Pic_Admin.TabStop = false;
             this.Pic_Admin.Click += new System.EventHandler(this.Pic_Admin_Click);
@@ -110,11 +110,11 @@ namespace Student_Management_System
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(46, 149);
+            this.label1.Location = new System.Drawing.Point(38, 161);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(48, 16);
+            this.label1.Size = new System.Drawing.Size(58, 20);
             this.label1.TabIndex = 1;
             this.label1.Text = "Guest";
             // 
@@ -131,11 +131,11 @@ namespace Student_Management_System
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(44, 149);
+            this.label2.Location = new System.Drawing.Point(41, 161);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(60, 16);
+            this.label2.Size = new System.Drawing.Size(73, 20);
             this.label2.TabIndex = 2;
             this.label2.Text = "Student";
             // 
@@ -153,11 +153,11 @@ namespace Student_Management_System
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(47, 149);
+            this.label3.Location = new System.Drawing.Point(41, 161);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(64, 16);
+            this.label3.Size = new System.Drawing.Size(76, 20);
             this.label3.TabIndex = 8;
             this.label3.Text = "Lecturer";
             // 
@@ -181,11 +181,11 @@ namespace Student_Management_System
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(55, 149);
+            this.label4.Location = new System.Drawing.Point(46, 161);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(51, 16);
+            this.label4.Size = new System.Drawing.Size(59, 20);
             this.label4.TabIndex = 4;
             this.label4.Text = "Admin";
             // 
@@ -193,11 +193,11 @@ namespace Student_Management_System
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(305, 44);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(220, 29);
+            this.label5.Size = new System.Drawing.Size(247, 31);
             this.label5.TabIndex = 8;
             this.label5.Text = "Registration Desk";
             // 
@@ -205,8 +205,8 @@ namespace Student_Management_System
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Student_Management_System.Properties.Resources._0020;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImage = global::Student_Management_System.Properties.Resources.ezgif1;
+            this.ClientSize = new System.Drawing.Size(824, 461);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel3);

@@ -90,7 +90,7 @@ namespace Student_Management_System
             this.menuStrip1.Location = new System.Drawing.Point(0, 5);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(350, 20, 0, 10);
-            this.menuStrip1.Size = new System.Drawing.Size(850, 55);
+            this.menuStrip1.Size = new System.Drawing.Size(855, 55);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
@@ -320,7 +320,7 @@ namespace Student_Management_System
             this.pic_Head.Image = global::Student_Management_System.Properties.Resources.Group_1__12_;
             this.pic_Head.Location = new System.Drawing.Point(0, 48);
             this.pic_Head.Name = "pic_Head";
-            this.pic_Head.Size = new System.Drawing.Size(850, 350);
+            this.pic_Head.Size = new System.Drawing.Size(855, 350);
             this.pic_Head.TabIndex = 2;
             this.pic_Head.TabStop = false;
             // 
@@ -329,7 +329,7 @@ namespace Student_Management_System
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(850, 650);
+            this.ClientSize = new System.Drawing.Size(855, 650);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.lbl_Username);
             this.Controls.Add(this.menuStrip1);
