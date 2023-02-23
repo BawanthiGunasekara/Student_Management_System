@@ -51,7 +51,7 @@ namespace Student_Management_System
             // cmb_Degree
             // 
             this.cmb_Degree.FormattingEnabled = true;
-            this.cmb_Degree.Location = new System.Drawing.Point(223, 49);
+            this.cmb_Degree.Location = new System.Drawing.Point(360, 61);
             this.cmb_Degree.Name = "cmb_Degree";
             this.cmb_Degree.Size = new System.Drawing.Size(444, 21);
             this.cmb_Degree.TabIndex = 0;
@@ -59,7 +59,7 @@ namespace Student_Management_System
             // cmb_Specialization
             // 
             this.cmb_Specialization.FormattingEnabled = true;
-            this.cmb_Specialization.Location = new System.Drawing.Point(223, 98);
+            this.cmb_Specialization.Location = new System.Drawing.Point(360, 110);
             this.cmb_Specialization.Name = "cmb_Specialization";
             this.cmb_Specialization.Size = new System.Drawing.Size(444, 21);
             this.cmb_Specialization.TabIndex = 1;
@@ -68,7 +68,7 @@ namespace Student_Management_System
             // cmb_Credits
             // 
             this.cmb_Credits.FormattingEnabled = true;
-            this.cmb_Credits.Location = new System.Drawing.Point(223, 211);
+            this.cmb_Credits.Location = new System.Drawing.Point(360, 223);
             this.cmb_Credits.Name = "cmb_Credits";
             this.cmb_Credits.Size = new System.Drawing.Size(71, 21);
             this.cmb_Credits.TabIndex = 2;
@@ -76,7 +76,7 @@ namespace Student_Management_System
             // cmb_Year
             // 
             this.cmb_Year.FormattingEnabled = true;
-            this.cmb_Year.Location = new System.Drawing.Point(372, 213);
+            this.cmb_Year.Location = new System.Drawing.Point(509, 225);
             this.cmb_Year.Name = "cmb_Year";
             this.cmb_Year.Size = new System.Drawing.Size(94, 21);
             this.cmb_Year.TabIndex = 3;
@@ -84,21 +84,21 @@ namespace Student_Management_System
             // cmb_Semester
             // 
             this.cmb_Semester.FormattingEnabled = true;
-            this.cmb_Semester.Location = new System.Drawing.Point(573, 211);
+            this.cmb_Semester.Location = new System.Drawing.Point(710, 223);
             this.cmb_Semester.Name = "cmb_Semester";
             this.cmb_Semester.Size = new System.Drawing.Size(94, 21);
             this.cmb_Semester.TabIndex = 4;
             // 
             // txt_Mname
             // 
-            this.txt_Mname.Location = new System.Drawing.Point(223, 152);
+            this.txt_Mname.Location = new System.Drawing.Point(360, 164);
             this.txt_Mname.Name = "txt_Mname";
             this.txt_Mname.Size = new System.Drawing.Size(200, 20);
             this.txt_Mname.TabIndex = 5;
             // 
             // txt_Mcode
             // 
-            this.txt_Mcode.Location = new System.Drawing.Point(554, 152);
+            this.txt_Mcode.Location = new System.Drawing.Point(691, 164);
             this.txt_Mcode.Name = "txt_Mcode";
             this.txt_Mcode.Size = new System.Drawing.Size(113, 20);
             this.txt_Mcode.TabIndex = 6;
@@ -107,7 +107,7 @@ namespace Student_Management_System
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(110, 50);
+            this.label1.Location = new System.Drawing.Point(247, 62);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(62, 20);
             this.label1.TabIndex = 7;
@@ -117,7 +117,7 @@ namespace Student_Management_System
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(110, 99);
+            this.label2.Location = new System.Drawing.Point(247, 111);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(107, 20);
             this.label2.TabIndex = 8;
@@ -127,7 +127,7 @@ namespace Student_Management_System
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(110, 152);
+            this.label3.Location = new System.Drawing.Point(247, 164);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(107, 20);
             this.label3.TabIndex = 9;
@@ -137,7 +137,7 @@ namespace Student_Management_System
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(445, 152);
+            this.label4.Location = new System.Drawing.Point(582, 164);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(103, 20);
             this.label4.TabIndex = 10;
@@ -147,7 +147,7 @@ namespace Student_Management_System
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(110, 209);
+            this.label5.Location = new System.Drawing.Point(247, 221);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(59, 20);
             this.label5.TabIndex = 11;
@@ -157,7 +157,7 @@ namespace Student_Management_System
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(323, 211);
+            this.label6.Location = new System.Drawing.Point(460, 223);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(43, 20);
             this.label6.TabIndex = 12;
@@ -168,7 +168,7 @@ namespace Student_Management_System
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(489, 211);
+            this.label7.Location = new System.Drawing.Point(626, 223);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(78, 20);
             this.label7.TabIndex = 13;
@@ -176,7 +176,7 @@ namespace Student_Management_System
             // 
             // btn_Save
             // 
-            this.btn_Save.Location = new System.Drawing.Point(592, 267);
+            this.btn_Save.Location = new System.Drawing.Point(729, 279);
             this.btn_Save.Name = "btn_Save";
             this.btn_Save.Size = new System.Drawing.Size(75, 23);
             this.btn_Save.TabIndex = 14;
@@ -187,16 +187,16 @@ namespace Student_Management_System
             // dtGrid_Modules
             // 
             this.dtGrid_Modules.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtGrid_Modules.Location = new System.Drawing.Point(12, 303);
+            this.dtGrid_Modules.Location = new System.Drawing.Point(36, 315);
             this.dtGrid_Modules.Name = "dtGrid_Modules";
-            this.dtGrid_Modules.Size = new System.Drawing.Size(776, 173);
+            this.dtGrid_Modules.Size = new System.Drawing.Size(991, 213);
             this.dtGrid_Modules.TabIndex = 15;
             // 
             // Add_Modules
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 488);
+            this.ClientSize = new System.Drawing.Size(1073, 551);
             this.Controls.Add(this.dtGrid_Modules);
             this.Controls.Add(this.btn_Save);
             this.Controls.Add(this.label7);

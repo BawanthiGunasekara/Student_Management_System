@@ -329,7 +329,7 @@ namespace Student_Management_System
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(855, 650);
+            this.ClientSize = new System.Drawing.Size(855, 669);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.lbl_Username);
             this.Controls.Add(this.menuStrip1);
