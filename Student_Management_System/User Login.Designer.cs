@@ -81,6 +81,7 @@ namespace Student_Management_System
             this.txt_Password.Name = "txt_Password";
             this.txt_Password.Size = new System.Drawing.Size(179, 13);
             this.txt_Password.TabIndex = 18;
+            this.txt_Password.Click += new System.EventHandler(this.txt_Password_Click);
             // 
             // pnl_Sign_In
             // 

@@ -192,5 +192,16 @@ namespace Student_Management_System
             Registration_Desk register = new Registration_Desk();
             register.Show();
         }
+
+        private void txt_Password_Click(object sender, EventArgs e)
+        {
+            // When password text box clixked, the watermark will disappear
+
+            txt_Password.Text = "";
+
+            txt_Password.ForeColor = Color.Black;
+
+            txt_Password.PasswordChar = '●'; // Password masking for added security
+        }
     }
 }

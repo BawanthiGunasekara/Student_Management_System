@@ -17,7 +17,7 @@ namespace Student_Management_System
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            Application.Run(new Contact_Form());
+            Application.Run(new User_Login());
         }
     }
 }
