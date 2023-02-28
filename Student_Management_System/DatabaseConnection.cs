@@ -178,10 +178,10 @@ namespace Student_Management_System
 
         //___DEGREE TABLE___ 
         //Insert statement for Degree Table
-        public void InsertDegreeDetails(string Degree_Type, string Degree_Name, string Num_Of_Years)
+        public void InsertDegreeDetails(string Degree_Type, string Degree_Name, string Time_Period, string TotalFee)
         {
             //sql query for Insert statement
-            string query = "insert into Degree(Degree_Type, Degree_Name, Num_Of_Years) values('" + Degree_Type + "', '" + Degree_Name + "', '" + Num_Of_Years + "')";
+            string query = "insert into Degree(Degree_Type, Degree_Name, Time_Period, TotalFee) values('" + Degree_Type + "', '" + Degree_Name + "', '" + Time_Period + "', '" + TotalFee + "')";
             connection = new SqlConnection(connectionString);
             connection.Open();
             SqlCommand cmd = new SqlCommand(query, connection);
