@@ -66,6 +66,7 @@ namespace Student_Management_System
         }
 
 
+
         //___STUDENT INFO TABLE___
         //view statement
         public DataTable ViewStudentDetails()
@@ -430,7 +431,7 @@ namespace Student_Management_System
             cmd.ExecuteNonQuery();
             connection.Close();
         }
-
+         
 
 
 

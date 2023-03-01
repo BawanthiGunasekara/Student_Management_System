@@ -35,9 +35,9 @@ namespace Student_Management_System
             this.Cmb_Dtype = new System.Windows.Forms.ComboBox();
             this.txt_Dname = new System.Windows.Forms.TextBox();
             this.btn_Save = new System.Windows.Forms.Button();
-            this.tzt_Dduration = new System.Windows.Forms.ComboBox();
             this.lbl_TotalFee = new System.Windows.Forms.Label();
             this.txt_Tot_Pay = new System.Windows.Forms.TextBox();
+            this.txt_Duration = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lbl_DgreeType
@@ -79,6 +79,7 @@ namespace Student_Management_System
             this.Cmb_Dtype.Name = "Cmb_Dtype";
             this.Cmb_Dtype.Size = new System.Drawing.Size(244, 28);
             this.Cmb_Dtype.TabIndex = 3;
+            this.Cmb_Dtype.SelectionChangeCommitted += new System.EventHandler(this.Cmb_Dtype_SelectionChangeCommitted);
             // 
             // txt_Dname
             // 
@@ -97,15 +98,6 @@ namespace Student_Management_System
             this.btn_Save.Text = "Save";
             this.btn_Save.UseVisualStyleBackColor = true;
             this.btn_Save.Click += new System.EventHandler(this.btn_Save_Click);
-            // 
-            // tzt_Dduration
-            // 
-            this.tzt_Dduration.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tzt_Dduration.FormattingEnabled = true;
-            this.tzt_Dduration.Location = new System.Drawing.Point(457, 207);
-            this.tzt_Dduration.Name = "tzt_Dduration";
-            this.tzt_Dduration.Size = new System.Drawing.Size(244, 28);
-            this.tzt_Dduration.TabIndex = 7;
             // 
             // lbl_TotalFee
             // 
@@ -126,14 +118,23 @@ namespace Student_Management_System
             this.txt_Tot_Pay.Size = new System.Drawing.Size(244, 26);
             this.txt_Tot_Pay.TabIndex = 9;
             // 
+            // txt_Duration
+            // 
+            this.txt_Duration.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Duration.Location = new System.Drawing.Point(457, 209);
+            this.txt_Duration.Name = "txt_Duration";
+            this.txt_Duration.ReadOnly = true;
+            this.txt_Duration.Size = new System.Drawing.Size(244, 26);
+            this.txt_Duration.TabIndex = 10;
+            // 
             // Add_Degree
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 429);
+            this.Controls.Add(this.txt_Duration);
             this.Controls.Add(this.txt_Tot_Pay);
             this.Controls.Add(this.lbl_TotalFee);
-            this.Controls.Add(this.tzt_Dduration);
             this.Controls.Add(this.btn_Save);
             this.Controls.Add(this.txt_Dname);
             this.Controls.Add(this.Cmb_Dtype);
@@ -156,8 +157,8 @@ namespace Student_Management_System
         private System.Windows.Forms.ComboBox Cmb_Dtype;
         private System.Windows.Forms.TextBox txt_Dname;
         private System.Windows.Forms.Button btn_Save;
-        private System.Windows.Forms.ComboBox tzt_Dduration;
         private System.Windows.Forms.Label lbl_TotalFee;
         private System.Windows.Forms.TextBox txt_Tot_Pay;
+        private System.Windows.Forms.TextBox txt_Duration;
     }
 }
