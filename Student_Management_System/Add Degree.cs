@@ -89,5 +89,10 @@ namespace Student_Management_System
             //calling of the method LoadDegreeDetails()
             LoadDegreeDetails();
         }
+
+        private void txt_Tot_Pay_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

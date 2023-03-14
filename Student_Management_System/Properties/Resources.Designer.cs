@@ -683,6 +683,16 @@ namespace Student_Management_System.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Group_2 {
+            get {
+                object obj = ResourceManager.GetObject("Group 2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Group_7__1_ {
             get {
                 object obj = ResourceManager.GetObject("Group 7 (1)", resourceCulture);
@@ -753,6 +763,16 @@ namespace Student_Management_System.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Rectangle_1 {
+            get {
+                object obj = ResourceManager.GetObject("Rectangle 1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Rectangle_1__1_ {
             get {
                 object obj = ResourceManager.GetObject("Rectangle 1 (1)", resourceCulture);
@@ -766,6 +786,46 @@ namespace Student_Management_System.Properties {
         internal static System.Drawing.Bitmap Rectangle_1__1_1 {
             get {
                 object obj = ResourceManager.GetObject("Rectangle 1 (1)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Rectangle_1__1_2 {
+            get {
+                object obj = ResourceManager.GetObject("Rectangle 1 (1)2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Rectangle_1__2_ {
+            get {
+                object obj = ResourceManager.GetObject("Rectangle 1 (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Rectangle_1__2_1 {
+            get {
+                object obj = ResourceManager.GetObject("Rectangle 1 (2)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Rectangle_1__3_ {
+            get {
+                object obj = ResourceManager.GetObject("Rectangle 1 (3)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -806,6 +866,66 @@ namespace Student_Management_System.Properties {
         internal static System.Drawing.Bitmap Rectangle_3__1_1 {
             get {
                 object obj = ResourceManager.GetObject("Rectangle 3 (1)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Rectangle_3__1_2 {
+            get {
+                object obj = ResourceManager.GetObject("Rectangle 3 (1)2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Rectangle_3__2_ {
+            get {
+                object obj = ResourceManager.GetObject("Rectangle 3 (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Rectangle_31 {
+            get {
+                object obj = ResourceManager.GetObject("Rectangle 31", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Rectangle_32 {
+            get {
+                object obj = ResourceManager.GetObject("Rectangle 32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Rectangle_33 {
+            get {
+                object obj = ResourceManager.GetObject("Rectangle 33", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Rectangle_34 {
+            get {
+                object obj = ResourceManager.GetObject("Rectangle 34", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

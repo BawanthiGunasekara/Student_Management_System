@@ -128,7 +128,7 @@ namespace Student_Management_System
             {
                 MessageBox.Show("Enter the Last Name!");
                 return;
-            }
+            } 
 
             //Validating whether the field is null 
             if (txt_NIC.Text == "")
@@ -330,6 +330,11 @@ namespace Student_Management_System
             // Set the Format type and the CustomFormat string.
             dtp_DOB.Format = DateTimePickerFormat.Custom;
             dtp_DOB.CustomFormat = "yyyy/MM/dd";
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
