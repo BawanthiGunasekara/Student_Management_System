@@ -336,5 +336,49 @@ namespace Student_Management_System
         {
 
         }
+
+        Control ctrl;
+
+        private void textBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            ctrl = (Control)sender;
+            if (ctrl is TextBox)
+            {
+                if (e.KeyCode == Keys.Tab || e.KeyCode == Keys.Down)
+                {
+                    this.SelectNextControl(ctrl, true, true, true, true);
+                }
+
+                else if (e.KeyCode == Keys.Up)
+                {
+                    this.SelectNextControl(ctrl, false, true, true, true);
+                }
+
+                else
+                    return;
+            }
+
+            else
+            {
+                if (e.KeyCode == Keys.Tab)
+                {
+                    this.SelectNextControl(ctrl, true, true, true, true);
+                }
+
+                else if (e.KeyCode == Keys.Up && e.Control)
+                {
+                    this.SelectNextControl(ctrl, false, true, true, true);
+                }
+
+                else
+                    return;
+            }
+            
+        }
+
+        private void Tot_D_Price_KeyDown(object sender, KeyEventArgs e)
+        {
+
+        }
     }
 }

@@ -431,9 +431,6 @@ namespace Student_Management_System
             cmd.ExecuteNonQuery();
             connection.Close();
         }
-         
-
-
 
     }
 }

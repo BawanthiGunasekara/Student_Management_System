@@ -25,6 +25,33 @@ namespace Student_Management_System
 
         private void btn_Save_Click(object sender, EventArgs e)
         {
+            //validating whether the field is null
+            if(Cmb_Dtype.Text == "")
+            {
+                MessageBox.Show("Select the Degree Type!");
+                return;
+            }
+
+            //validating whether the field is null
+            if(txt_Dname.Text == "")
+            {
+                MessageBox.Show("Enter the Degree Name!");
+                return;
+            }
+
+            //validating whether the field is null
+            if(txt_Duration.Text == "")
+            {
+                MessageBox.Show("Duration field should not be empty!");
+                return;
+            }
+
+            //validating whether the field is null
+            if(txt_Tot_Pay.Text == "")
+            {
+                MessageBox.Show("Enter the Total Fee of the degree program!");
+                return;
+            }
 
             //Making the connection with the database
             DatabaseConnection dbc = new DatabaseConnection();

@@ -52,11 +52,11 @@ namespace Student_Management_System
             // 
             this.lbl_DgreeType.AutoSize = true;
             this.lbl_DgreeType.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_DgreeType.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_DgreeType.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_DgreeType.ForeColor = System.Drawing.Color.White;
             this.lbl_DgreeType.Location = new System.Drawing.Point(80, 81);
             this.lbl_DgreeType.Name = "lbl_DgreeType";
-            this.lbl_DgreeType.Size = new System.Drawing.Size(100, 20);
+            this.lbl_DgreeType.Size = new System.Drawing.Size(111, 20);
             this.lbl_DgreeType.TabIndex = 0;
             this.lbl_DgreeType.Text = "Degree Type";
             this.lbl_DgreeType.Click += new System.EventHandler(this.label1_Click);
@@ -65,11 +65,11 @@ namespace Student_Management_System
             // 
             this.lbl_DegreeName.AutoSize = true;
             this.lbl_DegreeName.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_DegreeName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_DegreeName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_DegreeName.ForeColor = System.Drawing.Color.White;
             this.lbl_DegreeName.Location = new System.Drawing.Point(80, 147);
             this.lbl_DegreeName.Name = "lbl_DegreeName";
-            this.lbl_DegreeName.Size = new System.Drawing.Size(108, 20);
+            this.lbl_DegreeName.Size = new System.Drawing.Size(119, 20);
             this.lbl_DegreeName.TabIndex = 1;
             this.lbl_DegreeName.Text = "Degree Name";
             // 
@@ -77,11 +77,11 @@ namespace Student_Management_System
             // 
             this.lbl_NumOfYears.AutoSize = true;
             this.lbl_NumOfYears.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_NumOfYears.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_NumOfYears.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_NumOfYears.ForeColor = System.Drawing.Color.White;
             this.lbl_NumOfYears.Location = new System.Drawing.Point(80, 209);
             this.lbl_NumOfYears.Name = "lbl_NumOfYears";
-            this.lbl_NumOfYears.Size = new System.Drawing.Size(92, 20);
+            this.lbl_NumOfYears.Size = new System.Drawing.Size(103, 20);
             this.lbl_NumOfYears.TabIndex = 2;
             this.lbl_NumOfYears.Text = "Time Period";
             // 
@@ -90,7 +90,7 @@ namespace Student_Management_System
             this.Cmb_Dtype.BackColor = System.Drawing.Color.White;
             this.Cmb_Dtype.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Cmb_Dtype.FormattingEnabled = true;
-            this.Cmb_Dtype.Location = new System.Drawing.Point(212, 81);
+            this.Cmb_Dtype.Location = new System.Drawing.Point(233, 81);
             this.Cmb_Dtype.Name = "Cmb_Dtype";
             this.Cmb_Dtype.Size = new System.Drawing.Size(256, 26);
             this.Cmb_Dtype.TabIndex = 3;
@@ -100,16 +100,16 @@ namespace Student_Management_System
             // 
             this.txt_Dname.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_Dname.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_Dname.Location = new System.Drawing.Point(212, 147);
+            this.txt_Dname.Location = new System.Drawing.Point(233, 147);
             this.txt_Dname.Name = "txt_Dname";
             this.txt_Dname.Size = new System.Drawing.Size(256, 22);
             this.txt_Dname.TabIndex = 4;
             // 
             // btn_Save
             // 
-            this.btn_Save.Location = new System.Drawing.Point(393, 326);
+            this.btn_Save.Location = new System.Drawing.Point(430, 322);
             this.btn_Save.Name = "btn_Save";
-            this.btn_Save.Size = new System.Drawing.Size(75, 23);
+            this.btn_Save.Size = new System.Drawing.Size(75, 30);
             this.btn_Save.TabIndex = 6;
             this.btn_Save.Text = "Save";
             this.btn_Save.UseVisualStyleBackColor = true;
@@ -119,11 +119,11 @@ namespace Student_Management_System
             // 
             this.lbl_TotalFee.AutoSize = true;
             this.lbl_TotalFee.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_TotalFee.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_TotalFee.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_TotalFee.ForeColor = System.Drawing.Color.White;
             this.lbl_TotalFee.Location = new System.Drawing.Point(80, 273);
             this.lbl_TotalFee.Name = "lbl_TotalFee";
-            this.lbl_TotalFee.Size = new System.Drawing.Size(110, 20);
+            this.lbl_TotalFee.Size = new System.Drawing.Size(123, 20);
             this.lbl_TotalFee.TabIndex = 8;
             this.lbl_TotalFee.Text = "Total Payment";
             this.lbl_TotalFee.Click += new System.EventHandler(this.lbl_TotalFee_Click);
@@ -132,7 +132,7 @@ namespace Student_Management_System
             // 
             this.txt_Tot_Pay.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_Tot_Pay.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_Tot_Pay.Location = new System.Drawing.Point(212, 273);
+            this.txt_Tot_Pay.Location = new System.Drawing.Point(233, 273);
             this.txt_Tot_Pay.Name = "txt_Tot_Pay";
             this.txt_Tot_Pay.Size = new System.Drawing.Size(256, 22);
             this.txt_Tot_Pay.TabIndex = 9;
@@ -143,7 +143,7 @@ namespace Student_Management_System
             // 
             this.pic_DType.BackColor = System.Drawing.Color.Transparent;
             this.pic_DType.BackgroundImage = global::Student_Management_System.Properties.Resources.Rectangle_3__2_;
-            this.pic_DType.Location = new System.Drawing.Point(198, 74);
+            this.pic_DType.Location = new System.Drawing.Point(219, 74);
             this.pic_DType.Name = "pic_DType";
             this.pic_DType.Size = new System.Drawing.Size(286, 41);
             this.pic_DType.TabIndex = 11;
@@ -153,7 +153,7 @@ namespace Student_Management_System
             // 
             this.pic_DName.BackColor = System.Drawing.Color.Transparent;
             this.pic_DName.BackgroundImage = global::Student_Management_System.Properties.Resources.Rectangle_32;
-            this.pic_DName.Location = new System.Drawing.Point(198, 137);
+            this.pic_DName.Location = new System.Drawing.Point(219, 137);
             this.pic_DName.Name = "pic_DName";
             this.pic_DName.Size = new System.Drawing.Size(286, 41);
             this.pic_DName.TabIndex = 12;
@@ -163,7 +163,7 @@ namespace Student_Management_System
             // 
             this.pic_Payment.BackColor = System.Drawing.Color.Transparent;
             this.pic_Payment.BackgroundImage = global::Student_Management_System.Properties.Resources.Rectangle_34;
-            this.pic_Payment.Location = new System.Drawing.Point(198, 262);
+            this.pic_Payment.Location = new System.Drawing.Point(219, 262);
             this.pic_Payment.Name = "pic_Payment";
             this.pic_Payment.Size = new System.Drawing.Size(286, 41);
             this.pic_Payment.TabIndex = 14;
@@ -173,7 +173,7 @@ namespace Student_Management_System
             // 
             this.pic_TimePeriod.BackColor = System.Drawing.Color.Transparent;
             this.pic_TimePeriod.BackgroundImage = global::Student_Management_System.Properties.Resources.Rectangle_33;
-            this.pic_TimePeriod.Location = new System.Drawing.Point(198, 199);
+            this.pic_TimePeriod.Location = new System.Drawing.Point(219, 199);
             this.pic_TimePeriod.Name = "pic_TimePeriod";
             this.pic_TimePeriod.Size = new System.Drawing.Size(286, 41);
             this.pic_TimePeriod.TabIndex = 13;
@@ -183,7 +183,7 @@ namespace Student_Management_System
             // 
             this.txt_Duration.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_Duration.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_Duration.Location = new System.Drawing.Point(212, 209);
+            this.txt_Duration.Location = new System.Drawing.Point(233, 209);
             this.txt_Duration.Name = "txt_Duration";
             this.txt_Duration.Size = new System.Drawing.Size(256, 22);
             this.txt_Duration.TabIndex = 15;

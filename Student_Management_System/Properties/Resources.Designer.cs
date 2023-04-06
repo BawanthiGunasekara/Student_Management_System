@@ -763,6 +763,16 @@ namespace Student_Management_System.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Millions_of_PNG_Images__Backgrounds_and_Vectors_for_Free_Download___Pngtree {
+            get {
+                object obj = ResourceManager.GetObject("Millions of PNG Images, Backgrounds and Vectors for Free Download _ Pngtree", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Rectangle_1 {
             get {
                 object obj = ResourceManager.GetObject("Rectangle 1", resourceCulture);

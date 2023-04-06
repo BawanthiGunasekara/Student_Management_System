@@ -83,5 +83,10 @@ namespace Student_Management_System
             Registration_Desk register = new Registration_Desk();
             register.Show();
         }
+
+        private void Add_Lecturer_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
