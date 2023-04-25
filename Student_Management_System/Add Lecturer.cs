@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -86,7 +87,21 @@ namespace Student_Management_System
 
         private void Add_Lecturer_Load(object sender, EventArgs e)
         {
+            string connString = @"Data Source=NGHQ-IT-028\MSSQLSERVER2012;Initial Catalog=Student_Database;User ID=sa;Password=";
+            SqlConnection con = new SqlConnection(connString);
+            con.Open();
+            string strCmd = "select D_Type_Name from Degree_Types";
+            SqlCommand cmd = new SqlCommand(strCmd, con);
+            SqlDataAdapter da = new SqlDataAdapter(strCmd, con);
+            DataSet ds = new DataSet();
+            da.Fill(ds);
+            cmb_Dtype.DataSource = ds.Tables[0];
+            cmb_Dtype.DisplayMember = "D_Type_Name";
+            cmb_Dtype.ValueMember = "D_Type_Name";
+            cmb_Dtype.SelectedIndex = -1;
 
+            cmd.ExecuteNonQuery();
+            con.Close();
         }
     }
 }

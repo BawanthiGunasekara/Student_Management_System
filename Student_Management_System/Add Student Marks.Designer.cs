@@ -174,7 +174,7 @@ namespace Student_Management_System
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(950, 341);
+            this.ClientSize = new System.Drawing.Size(954, 361);
             this.Controls.Add(this.dtGrid_Smarks);
             this.Controls.Add(this.txt_Specialization);
             this.Controls.Add(this.txt_Degree);

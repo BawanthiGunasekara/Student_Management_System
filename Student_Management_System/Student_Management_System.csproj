@@ -340,21 +340,16 @@
     <None Include="Resources\0020.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\00311.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\0033.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\0035.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\00321.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\f1.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Group 1.png" />
+    <None Include="Resources\Group 2 %283%29.png" />
+    <None Include="Resources\Group 2 %284%29.png" />
+    <Content Include="Resources\Home\Group 1 %2812%29.png" />
+    <Content Include="Resources\Home\Group 1 %2813%29.png" />
+    <Content Include="Resources\Home\Group 1 %2814%29.png" />
+    <Content Include="Resources\Home\Group 1 %2815%29.png" />
     <None Include="Resources\Millions of PNG Images, Backgrounds and Vectors for Free Download _ Pngtree.png" />
     <None Include="Resources\Rectangle 3 %282%29.png" />
     <None Include="Resources\Rectangle 3 %281%292.png" />
@@ -412,9 +407,8 @@
     <None Include="Resources\Desktop - 1 %282%292.png" />
     <None Include="Resources\Desktop - 1 %282%291.png" />
     <None Include="Resources\Desktop - 1 %282%29.png" />
-    <None Include="Resources\Desktop - 1 %281%29.png" />
-    <None Include="Resources\Desktop - 1.png" />
     <None Include="Resources\Group 2.png" />
+    <None Include="Resources\Group 2 %282%29.png" />
     <Content Include="Resources\Header\11.png" />
     <Content Include="Resources\Header\22.png" />
     <Content Include="Resources\Header\33.png" />
@@ -422,14 +416,6 @@
     <Content Include="Resources\Header\55.png" />
     <Content Include="Resources\Header\66.png" />
     <Content Include="Resources\Header\77.png" />
-    <Content Include="Resources\Home\f1.jpg" />
-    <Content Include="Resources\Home\f2 %282%29.png" />
-    <Content Include="Resources\Home\f3.png" />
-    <Content Include="Resources\Home\f4.png" />
-    <Content Include="Resources\Home\f5.png" />
-    <Content Include="Resources\Home\f6.jpg" />
-    <Content Include="Resources\Home\f7.jpg" />
-    <Content Include="Resources\Home\f8.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

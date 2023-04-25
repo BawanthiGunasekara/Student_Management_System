@@ -76,6 +76,11 @@ namespace Student_Management_System
             // cmb_Year
             // 
             this.cmb_Year.FormattingEnabled = true;
+            this.cmb_Year.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4"});
             this.cmb_Year.Location = new System.Drawing.Point(509, 225);
             this.cmb_Year.Name = "cmb_Year";
             this.cmb_Year.Size = new System.Drawing.Size(94, 21);
@@ -84,6 +89,9 @@ namespace Student_Management_System
             // cmb_Semester
             // 
             this.cmb_Semester.FormattingEnabled = true;
+            this.cmb_Semester.Items.AddRange(new object[] {
+            "1",
+            "2"});
             this.cmb_Semester.Location = new System.Drawing.Point(710, 223);
             this.cmb_Semester.Name = "cmb_Semester";
             this.cmb_Semester.Size = new System.Drawing.Size(94, 21);
