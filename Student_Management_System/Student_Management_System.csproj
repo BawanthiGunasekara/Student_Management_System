@@ -343,9 +343,15 @@
     <None Include="Resources\f1.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\pngtree-purple-square-geometric-dot-line-surface-purple-gradient-border-png-image_5333541.jpg" />
     <None Include="Resources\Group 1.png" />
     <None Include="Resources\Group 2 %283%29.png" />
     <None Include="Resources\Group 2 %284%29.png" />
+    <None Include="Resources\360_F_471082591_uZw1eOWGYGAepMG4kL0UkaAYfHQLonag.jpg" />
+    <None Include="Resources\360_F_471082591_uZw1eOWGYGAepMG4kL0UkaAYfHQLonag1.jpg" />
+    <None Include="Resources\Group 1 %281%29.png" />
+    <None Include="Resources\Group 1 %282%29.png" />
+    <None Include="Resources\Group 1 %283%29.png" />
     <Content Include="Resources\Home\Group 1 %2812%29.png" />
     <Content Include="Resources\Home\Group 1 %2813%29.png" />
     <Content Include="Resources\Home\Group 1 %2814%29.png" />

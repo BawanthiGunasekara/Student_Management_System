@@ -124,14 +124,14 @@
   <data name="01 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\01 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="0032" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\0032.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Group 1 (23)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Group 1 (23).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="0024" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\0024.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="360_F_471082591_uZw1eOWGYGAepMG4kL0UkaAYfHQLonag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\360_F_471082591_uZw1eOWGYGAepMG4kL0UkaAYfHQLonag.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-purple-square-geometric-dot-line-surface-purple-gradient-border-png-image_5333541" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-purple-square-geometric-dot-line-surface-purple-gradient-border-png-image_5333541.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Rectangle 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Rectangle 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -139,8 +139,8 @@
   <data name="Desktop - 1 (2)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Desktop - 1 (2)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="00285" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\0028.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Rectangle 33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rectangle 33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Frame 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Frame 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,6 +202,9 @@
   <data name="Group 1 (22)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Group 1 (22).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="360_F_471082591_uZw1eOWGYGAepMG4kL0UkaAYfHQLonag1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\360_F_471082591_uZw1eOWGYGAepMG4kL0UkaAYfHQLonag1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="0031" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\0031.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -229,6 +232,9 @@
   <data name="Rectangle 1 (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Rectangle 1 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="0024" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0024.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="00284" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\0028.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -246,6 +252,9 @@
   </data>
   <data name="Rectangle 3 (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Rectangle 3 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Group 1 (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 1 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="f1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\f1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -268,8 +277,11 @@
   <data name="00301" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\00301.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="101 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\101 (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Group 2 (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 2 (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bg_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bg_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Rectangle 3 (1)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Rectangle 3 (1)2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -279,6 +291,9 @@
   </data>
   <data name="0026" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\0026.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Group 1 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 1 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Group 1 (20)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Group 1 (20).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -310,11 +325,8 @@
   <data name="Group 1 (21)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Group 1 (21).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Group 7 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 7 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Group 7 (1)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 7 (1)2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="00285" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0028.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Rectangle 3 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Rectangle 3 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -333,6 +345,9 @@
   </data>
   <data name="0001" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\0001.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="101 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\101 (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="0030" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\0030.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -355,17 +370,17 @@
   <data name="0027" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\0027.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Rectangle 33" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Rectangle 33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Group 7 (1)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 7 (1)2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Group 1 (16)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Group 1 (16).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="0029" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\0029.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Group 7 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 7 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Bg_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bg_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="0032" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0032.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="00282" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\00282.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -385,6 +400,9 @@
   <data name="00292" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\0029.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="0029" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0029.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="00291" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\00291.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -394,7 +412,7 @@
   <data name="100" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Group 2 (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 2 (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Group 1 (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 1 (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

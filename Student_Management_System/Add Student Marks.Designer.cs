@@ -41,6 +41,7 @@ namespace Student_Management_System
             this.txt_Degree = new System.Windows.Forms.TextBox();
             this.txt_Specialization = new System.Windows.Forms.TextBox();
             this.dtGrid_Smarks = new System.Windows.Forms.DataGridView();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dtGrid_Smarks)).BeginInit();
             this.SuspendLayout();
             // 
@@ -59,8 +60,10 @@ namespace Student_Management_System
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(33, 88);
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(29, 85);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(87, 20);
@@ -71,8 +74,10 @@ namespace Student_Management_System
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(33, 141);
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(29, 138);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(112, 20);
@@ -83,8 +88,10 @@ namespace Student_Management_System
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(33, 190);
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(29, 187);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(147, 20);
@@ -95,8 +102,10 @@ namespace Student_Management_System
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(33, 241);
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(29, 238);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(62, 20);
@@ -107,8 +116,10 @@ namespace Student_Management_System
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(33, 290);
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(29, 287);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(107, 20);
@@ -122,7 +133,7 @@ namespace Student_Management_System
             this.cmb_SNo.Location = new System.Drawing.Point(185, 85);
             this.cmb_SNo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cmb_SNo.Name = "cmb_SNo";
-            this.cmb_SNo.Size = new System.Drawing.Size(104, 28);
+            this.cmb_SNo.Size = new System.Drawing.Size(112, 28);
             this.cmb_SNo.TabIndex = 6;
             // 
             // txt_Sname
@@ -164,17 +175,28 @@ namespace Student_Management_System
             // dtGrid_Smarks
             // 
             this.dtGrid_Smarks.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtGrid_Smarks.Location = new System.Drawing.Point(451, 88);
+            this.dtGrid_Smarks.Location = new System.Drawing.Point(451, 85);
             this.dtGrid_Smarks.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dtGrid_Smarks.Name = "dtGrid_Smarks";
-            this.dtGrid_Smarks.Size = new System.Drawing.Size(473, 222);
+            this.dtGrid_Smarks.Size = new System.Drawing.Size(473, 225);
             this.dtGrid_Smarks.TabIndex = 11;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(358, 329);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 30);
+            this.button1.TabIndex = 12;
+            this.button1.Text = "Save";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // Add_Student_Marks
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(954, 361);
+            this.BackgroundImage = global::Student_Management_System.Properties.Resources.Group_1__1_;
+            this.ClientSize = new System.Drawing.Size(954, 402);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.dtGrid_Smarks);
             this.Controls.Add(this.txt_Specialization);
             this.Controls.Add(this.txt_Degree);
@@ -212,5 +234,6 @@ namespace Student_Management_System
         private System.Windows.Forms.TextBox txt_Degree;
         private System.Windows.Forms.TextBox txt_Specialization;
         private System.Windows.Forms.DataGridView dtGrid_Smarks;
+        private System.Windows.Forms.Button button1;
     }
 }

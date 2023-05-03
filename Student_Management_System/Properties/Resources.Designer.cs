@@ -403,6 +403,26 @@ namespace Student_Management_System.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _360_F_471082591_uZw1eOWGYGAepMG4kL0UkaAYfHQLonag {
+            get {
+                object obj = ResourceManager.GetObject("360_F_471082591_uZw1eOWGYGAepMG4kL0UkaAYfHQLonag", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _360_F_471082591_uZw1eOWGYGAepMG4kL0UkaAYfHQLonag1 {
+            get {
+                object obj = ResourceManager.GetObject("360_F_471082591_uZw1eOWGYGAepMG4kL0UkaAYfHQLonag1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _new {
             get {
                 object obj = ResourceManager.GetObject("new", resourceCulture);
@@ -573,6 +593,16 @@ namespace Student_Management_System.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Group_1__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Group 1 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Group_1__11_ {
             get {
                 object obj = ResourceManager.GetObject("Group 1 (11)", resourceCulture);
@@ -633,6 +663,16 @@ namespace Student_Management_System.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Group_1__2_ {
+            get {
+                object obj = ResourceManager.GetObject("Group 1 (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Group_1__20_ {
             get {
                 object obj = ResourceManager.GetObject("Group 1 (20)", resourceCulture);
@@ -686,6 +726,16 @@ namespace Student_Management_System.Properties {
         internal static System.Drawing.Bitmap Group_1__24_ {
             get {
                 object obj = ResourceManager.GetObject("Group 1 (24)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Group_1__3_ {
+            get {
+                object obj = ResourceManager.GetObject("Group 1 (3)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -806,6 +856,17 @@ namespace Student_Management_System.Properties {
         internal static System.Drawing.Bitmap Millions_of_PNG_Images__Backgrounds_and_Vectors_for_Free_Download___Pngtree {
             get {
                 object obj = ResourceManager.GetObject("Millions of PNG Images, Backgrounds and Vectors for Free Download _ Pngtree", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngtree_purple_square_geometric_dot_line_surface_purple_gradient_border_png_image_5333541 {
+            get {
+                object obj = ResourceManager.GetObject("pngtree-purple-square-geometric-dot-line-surface-purple-gradient-border-png-image" +
+                        "_5333541", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
