@@ -77,7 +77,6 @@ namespace Student_Management_System
             txt_Degree.Text = dt.Rows[0]["Degree"].ToString();
             txt_Specialization.Text = dt.Rows[0]["Specialization_Name"].ToString();
 
-
             cmd.ExecuteNonQuery();
             con.Close();
         }

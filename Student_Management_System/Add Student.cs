@@ -71,7 +71,6 @@ namespace Student_Management_System
 
                     //if the user input matches with the requirements display the user input in black
                     txt_NIC.ForeColor = Color.Black;
-
                 }
                 else
                 {
@@ -95,7 +94,6 @@ namespace Student_Management_System
 
                     //if the user input matches with the requirements display the user input in black
                     txt_NIC.ForeColor = Color.Black;
-
                 }
 
                 else
@@ -103,7 +101,6 @@ namespace Student_Management_System
                     //if the NIC is invalid display the user input in red
                     txt_NIC.ForeColor = Color.Red;
                 }
-
             }
 
             else
@@ -282,7 +279,15 @@ namespace Student_Management_System
 
         private void txt_Address_KeyPress(object sender, KeyPressEventArgs e)
         {
-            e.Handled = !(char.IsLetter(e.KeyChar) || e.KeyChar == (char)Keys.Back);
+            /* e.Handled = !(char.IsLetter(e.KeyChar) || e.KeyChar == (char)Keys.Back);*//*
+             char ch = e.KeyChar;
+
+            if (!char.IsLetter(ch) && !char.IsWhiteSpace(e.KeyChar) && (!char.IsDigit(e.KeyChar) && ch != 8 && ch != 46))  //8 is Backspace key; 46 is Delete key. This statement accepts dot key. 
+                                                             //if (!char.IsLetterOrDigit(ch) && !char.IsLetter(ch) && ch != 8 && ch != 46)   //This statement accepts dot key. 
+             {
+                 e.Handled = true;
+                 MessageBox.Show("Only accept letterS.");
+             }*/
         }
 
         private void txt_Contact_KeyPress(object sender, KeyPressEventArgs e)
@@ -373,7 +378,6 @@ namespace Student_Management_System
                 else
                     return;
             }
-            
         }
 
         private void Tot_D_Price_KeyDown(object sender, KeyEventArgs e)

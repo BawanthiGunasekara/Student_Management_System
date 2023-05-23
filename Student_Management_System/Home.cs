@@ -108,5 +108,15 @@ namespace Student_Management_System
         {
 
         }
+
+        private void studentManagementToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void registerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

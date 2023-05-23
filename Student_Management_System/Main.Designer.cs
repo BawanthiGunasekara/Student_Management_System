@@ -68,6 +68,7 @@ namespace Student_Management_System
             // btn_Contact
             // 
             this.btn_Contact.BackColor = System.Drawing.Color.Teal;
+            this.btn_Contact.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_Contact.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Contact.ForeColor = System.Drawing.Color.White;
             this.btn_Contact.Location = new System.Drawing.Point(413, 651);
@@ -81,6 +82,7 @@ namespace Student_Management_System
             // btn_Register
             // 
             this.btn_Register.BackColor = System.Drawing.Color.Teal;
+            this.btn_Register.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_Register.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Register.ForeColor = System.Drawing.Color.White;
             this.btn_Register.Location = new System.Drawing.Point(387, 339);

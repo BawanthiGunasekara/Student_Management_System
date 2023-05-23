@@ -51,6 +51,10 @@ namespace Student_Management_System
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.pic_Head = new System.Windows.Forms.PictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.studentManagementToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.degreesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.contactUsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Computing)).BeginInit();
@@ -84,9 +88,9 @@ namespace Student_Management_System
             this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.menuStrip1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.homeToolStripMenuItem,
-            this.degreeProgramesToolStripMenuItem,
-            this.registeredCoursesToolStripMenuItem});
+            this.studentManagementToolStripMenuItem,
+            this.degreesToolStripMenuItem,
+            this.contactUsToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 5);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(350, 20, 0, 10);
@@ -100,7 +104,7 @@ namespace Student_Management_System
             this.lbl_Username.AutoSize = true;
             this.lbl_Username.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.lbl_Username.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Username.Location = new System.Drawing.Point(25, 27);
+            this.lbl_Username.Location = new System.Drawing.Point(31, 29);
             this.lbl_Username.Name = "lbl_Username";
             this.lbl_Username.Size = new System.Drawing.Size(46, 18);
             this.lbl_Username.TabIndex = 1;
@@ -324,12 +328,40 @@ namespace Student_Management_System
             this.pic_Head.TabIndex = 2;
             this.pic_Head.TabStop = false;
             // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.Gainsboro;
+            this.panel2.Location = new System.Drawing.Point(0, 535);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(855, 39);
+            this.panel2.TabIndex = 9;
+            // 
+            // studentManagementToolStripMenuItem
+            // 
+            this.studentManagementToolStripMenuItem.Name = "studentManagementToolStripMenuItem";
+            this.studentManagementToolStripMenuItem.Size = new System.Drawing.Size(104, 25);
+            this.studentManagementToolStripMenuItem.Text = "My Courses";
+            this.studentManagementToolStripMenuItem.Click += new System.EventHandler(this.studentManagementToolStripMenuItem_Click);
+            // 
+            // degreesToolStripMenuItem
+            // 
+            this.degreesToolStripMenuItem.Name = "degreesToolStripMenuItem";
+            this.degreesToolStripMenuItem.Size = new System.Drawing.Size(79, 25);
+            this.degreesToolStripMenuItem.Text = "Degrees";
+            // 
+            // contactUsToolStripMenuItem
+            // 
+            this.contactUsToolStripMenuItem.Name = "contactUsToolStripMenuItem";
+            this.contactUsToolStripMenuItem.Size = new System.Drawing.Size(97, 25);
+            this.contactUsToolStripMenuItem.Text = "Contact Us";
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(855, 669);
+            this.ClientSize = new System.Drawing.Size(855, 568);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.lbl_Username);
             this.Controls.Add(this.menuStrip1);
@@ -378,5 +410,9 @@ namespace Student_Management_System
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.PictureBox pic_Humanities;
         private System.Windows.Forms.PictureBox pic_Computing;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.ToolStripMenuItem studentManagementToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem degreesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem contactUsToolStripMenuItem;
     }
 }

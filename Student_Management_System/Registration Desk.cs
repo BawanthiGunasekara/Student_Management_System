@@ -53,5 +53,13 @@ namespace Student_Management_System
         {
 
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            //Directs to the Registration Form
+            this.Hide();
+            Main main = new Main();
+            main.Show();
+        }
     }
 }

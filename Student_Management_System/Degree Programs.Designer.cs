@@ -45,6 +45,7 @@ namespace Student_Management_System
             // 
             // pic_Humanities
             // 
+            this.pic_Humanities.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pic_Humanities.Image = global::Student_Management_System.Properties.Resources._0026;
             this.pic_Humanities.Location = new System.Drawing.Point(836, 285);
             this.pic_Humanities.Name = "pic_Humanities";
@@ -55,6 +56,7 @@ namespace Student_Management_System
             // 
             // pic_Archi
             // 
+            this.pic_Archi.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pic_Archi.Image = global::Student_Management_System.Properties.Resources._0023;
             this.pic_Archi.Location = new System.Drawing.Point(634, 285);
             this.pic_Archi.Name = "pic_Archi";
@@ -65,6 +67,7 @@ namespace Student_Management_System
             // 
             // pic_Business
             // 
+            this.pic_Business.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pic_Business.Image = global::Student_Management_System.Properties.Resources._0027;
             this.pic_Business.Location = new System.Drawing.Point(431, 285);
             this.pic_Business.Name = "pic_Business";
@@ -75,6 +78,7 @@ namespace Student_Management_System
             // 
             // pic_Engineering
             // 
+            this.pic_Engineering.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pic_Engineering.Image = global::Student_Management_System.Properties.Resources._0025;
             this.pic_Engineering.Location = new System.Drawing.Point(224, 285);
             this.pic_Engineering.Name = "pic_Engineering";
@@ -95,6 +99,7 @@ namespace Student_Management_System
             // 
             // pic_Computing
             // 
+            this.pic_Computing.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pic_Computing.Image = global::Student_Management_System.Properties.Resources._0024;
             this.pic_Computing.Location = new System.Drawing.Point(21, 284);
             this.pic_Computing.Name = "pic_Computing";

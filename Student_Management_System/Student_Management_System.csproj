@@ -343,6 +343,10 @@
     <None Include="Resources\f1.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\images-_4_1.png" />
+    <None Include="Resources\images-_4_.png" />
+    <None Include="Resources\vivid-blurred-colorful-background_58702-2563.png" />
+    <None Include="Resources\Rectangle 1 %284%29.png" />
     <None Include="Resources\pngtree-purple-square-geometric-dot-line-surface-purple-gradient-border-png-image_5333541.jpg" />
     <None Include="Resources\Group 1.png" />
     <None Include="Resources\Group 2 %283%29.png" />
@@ -352,6 +356,20 @@
     <None Include="Resources\Group 1 %281%29.png" />
     <None Include="Resources\Group 1 %282%29.png" />
     <None Include="Resources\Group 1 %283%29.png" />
+    <None Include="Resources\Group 1 %284%29.png" />
+    <None Include="Resources\Group 1 %285%29.png" />
+    <None Include="Resources\Group 2 %285%29.png" />
+    <None Include="Resources\Group 1 %286%29.png" />
+    <None Include="Resources\Group 1 %287%29.png" />
+    <None Include="Resources\Group 1 %288%29.png" />
+    <None Include="Resources\01.png" />
+    <None Include="Resources\Group 1 %283%291.png" />
+    <None Include="Resources\angle-small-left.png" />
+    <None Include="Resources\02-removebg-preview.png" />
+    <None Include="Resources\02-removebg-preview1.png" />
+    <None Include="Resources\angle-small-left %281%29.png" />
+    <None Include="Resources\angle-small-left1.png" />
+    <None Include="Resources\angle-small-left %282%29.png" />
     <Content Include="Resources\Home\Group 1 %2812%29.png" />
     <Content Include="Resources\Home\Group 1 %2813%29.png" />
     <Content Include="Resources\Home\Group 1 %2814%29.png" />

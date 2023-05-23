@@ -19,7 +19,7 @@ namespace Student_Management_System
 
         //set the counter to 0
         int counter = 0;
-
+        
         public string txtUsername { get; private set; }
 
         public Degree_Programs()
@@ -88,6 +88,17 @@ namespace Student_Management_System
 
         private void pic_Header_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void pic_Computing_MouseLeave(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void pnl_Computing_MouseHover(object sender, EventArgs e)
+        {
+          
 
         }
     }

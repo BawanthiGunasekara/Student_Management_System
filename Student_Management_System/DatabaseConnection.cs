@@ -113,19 +113,6 @@ namespace Student_Management_System
             return dt;
         }
 
-        /*        //Update statement
-                internal void UpdateStudentDetails(string student, string text1, string text2, string text3, DateTime dateTime, string text4)
-                {
-                    DataTable dt = new DataTable();
-                    string query = "UPDATE Student_Info SET First_Name='" + text1 + "', Last_Name='" + text2 + "', NIC='" + text3 + "', DOB='" + dateTime + "', Address='" + text4 + "' WHERE Student_No='" + student + "'";
-
-                    connection.Open();
-                    SqlCommand cmd = new SqlCommand(query, connection);
-
-                    cmd.ExecuteNonQuery();
-                    connection.Close();
-                }*/
-
         //Insert statement
         public void InsertStudentDetails(string FirstName, string LastName, string NIC, DateTime DOB, string Address, string Contact, string Nationality, string Degree, string Specialization, string Year, string Semester, string Registered_Date, string Username, string Password)
 
@@ -146,19 +133,6 @@ namespace Student_Management_System
         {
             throw new NotImplementedException();
         }
-
-        //Delete statement for Student Info
-        /*public void DeleteStudentDetails(string student)
-        {
-            string query = "DELETE FROM Student_Info WHERE WHERE Student_No='" + student + "'";
-            connection = new SqlConnection(connectionString);
-            connection.Open();
-            SqlCommand cmd = new SqlCommand(query, connection);
-
-            cmd.ExecuteNonQuery();
-            connection.Close();
-        }
-*/
 
 
         //___SPECIALIZATION TABLE___ 
@@ -229,57 +203,6 @@ namespace Student_Management_System
             }
             return dt;
         }
-
-
-        //view statementfor degree table
-        /*        public DataTable RetrieveDegreePogramDetails(string Degree_Name)
-                {
-                    DataTable dt = new DataTable();
-
-                    //sql connection object
-                    using (connection = new SqlConnection(connectionString))
-                    {
-
-                        //retrieve the SQL Server instance version
-                        string query = @"SELECT * ON table WHERE tagoridorwhatever = textboxname.text";
-
-                        //define the SqlCommand object
-                        SqlCommand cmd = new SqlCommand(query, connection);
-
-
-                        //Set the SqlDataAdapter object
-                        SqlDataAdapter dAdapter = new SqlDataAdapter(cmd);
-
-                        //define dataset
-                        DataSet ds = new DataSet();
-
-                        //fill dataset with query results
-                        dAdapter.Fill(ds);
-
-                        //set the DataGridView control's data source/data table
-                        dt = ds.Tables[0];
-
-                        //close connection
-                        connection.Close();
-                    }
-                    return dt;
-                }*/
-
-
-        /*        //Insert statement
-                public void InsertModuleMarks(string Student_No, )
-
-                {
-                    //sql query for Insert statement
-                    string query = "insert into Student_Marks(Student_No, Last_Name, NIC, DOB, Address, Contact, Nationality, Degree, Specialization, Yr) values('" + FirstName + "', '" + LastName + "', '" + NIC + "', '" + DOB + "', '" + Address + "', '" + Contact + "', '" + Nationality + "', '" + Degree + "', '" + Specialization + "', '" + Year + "')";
-                    connection = new SqlConnection(connectionString);
-                    connection.Open();
-                    SqlCommand cmd = new SqlCommand(query, connection);
-
-                    cmd.ExecuteNonQuery();
-                    connection.Close();
-
-                }*/
 
 
         //___MODULES TABLE___  
@@ -419,10 +342,10 @@ namespace Student_Management_System
 
         //___CONTACT FORM___ 
         //insert table for the inquiries table
-        public void AddContactDetails(string name, string email, string mobile, string message)
+        public void AddContactDetails(string name, string email, string message)
         {
             //sql query for insert statement
-            string query = "insert into Inquiries(Name,Email,Mobile,Msg) values('" + name + "', '" + email + "', '" + mobile + "', '" + message + "')";
+            string query = "insert into Inquiries(Name,Email,Msg) values('" + name + "', '" + email + "', '" + message + "')";
             connection = new SqlConnection(connectionString);
             connection.Open();
             SqlCommand cmd = new SqlCommand(query, connection);

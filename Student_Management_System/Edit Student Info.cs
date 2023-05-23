@@ -84,7 +84,7 @@ namespace Student_Management_System
             con.Open();
 
             //retrieve data from the database Student_Info table according to the selected Student No.
-            string strCmd = "select First_Name,Last_name, DOB, NIC, Address, Contact, Nationality, Degree, Specialization_Name, Yr, Semester from Student_info Where Student_No= '" + student + "'";
+            string strCmd = "select First_Name, Last_name, DOB, NIC, Address, Contact, Nationality, Degree, Specialization_Name, Yr, Semester, Registered_Date from Student_info Where Student_No= '" + student + "'";
             SqlCommand cmd = new SqlCommand(strCmd, con);
             SqlDataAdapter da = new SqlDataAdapter(strCmd, con);
             DataSet ds = new DataSet();
@@ -105,6 +105,7 @@ namespace Student_Management_System
             txt_Specialization.Text = dt.Rows[0]["Specialization_Name"].ToString();
             txt_Yr.Text = dt.Rows[0]["Yr"].ToString();
             txt_Sem.Text = dt.Rows[0]["Semester"].ToString();
+            txt_RegDate.Text = dt.Rows[0]["Registered_Date"].ToString();
 
             cmd.ExecuteNonQuery();
             con.Close();
@@ -142,7 +143,7 @@ namespace Student_Management_System
 
         private void txt_RegDate_TextChanged(object sender, EventArgs e)
         {
-            txt_RegDate.Text = DateTime.Now.ToString("dddd , MMM dd yyyy");
+           /* txt_RegDate.Text = DateTime.Now.ToString("dddd , MMM dd yyyy");*/
         }
     }
 }
