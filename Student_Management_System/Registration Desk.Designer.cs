@@ -44,6 +44,8 @@ namespace Student_Management_System
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.Si = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Guest)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pic_Student)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pic_Lecturer)).BeginInit();
@@ -215,12 +217,40 @@ namespace Student_Management_System
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel1.LinkColor = System.Drawing.Color.White;
+            this.linkLabel1.Location = new System.Drawing.Point(487, 356);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(52, 18);
+            this.linkLabel1.TabIndex = 10;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Sign In";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
+            // Si
+            // 
+            this.Si.AutoSize = true;
+            this.Si.BackColor = System.Drawing.Color.Transparent;
+            this.Si.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Si.ForeColor = System.Drawing.Color.White;
+            this.Si.Location = new System.Drawing.Point(308, 356);
+            this.Si.Name = "Si";
+            this.Si.Size = new System.Drawing.Size(180, 18);
+            this.Si.TabIndex = 11;
+            this.Si.Text = "Alraedy have an account? ";
+            // 
             // Registration_Desk
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Student_Management_System.Properties.Resources.ezgif1;
             this.ClientSize = new System.Drawing.Size(824, 461);
+            this.Controls.Add(this.Si);
+            this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.panel5);
@@ -265,5 +295,7 @@ namespace Student_Management_System
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.Label Si;
     }
 }

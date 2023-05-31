@@ -61,5 +61,13 @@ namespace Student_Management_System
             Main main = new Main();
             main.Show();
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            //Directs to the Registration Form
+            this.Hide();
+            User_Login login = new User_Login();
+            login.Show();
+        }
     }
 }

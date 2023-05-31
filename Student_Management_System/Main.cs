@@ -24,7 +24,7 @@ namespace Student_Management_System
 
         private void btn_Register_Click(object sender, EventArgs e)
         {
-            //Directs to the Registration Form
+            //Directs to the sign in Form
             this.Hide();
             Registration_Desk register = new Registration_Desk();
             register.Show();
@@ -32,10 +32,10 @@ namespace Student_Management_System
 
         private void btn_Contact_Click(object sender, EventArgs e)
         {
-            //Directs to the Contact Form
+/*            //Directs to the Contact Form      
             this.Hide();
             Contact_Form register = new Contact_Form();
-            register.Show();
+            register.Show();*/
         }
     }
 }

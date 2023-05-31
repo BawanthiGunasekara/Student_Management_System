@@ -134,12 +134,6 @@
     <Compile Include="Engineering.Designer.cs">
       <DependentUpon>Engineering.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -195,12 +189,6 @@
     <Compile Include="User Profile.Designer.cs">
       <DependentUpon>User Profile.cs</DependentUpon>
     </Compile>
-    <Compile Include="View Degree Programs.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View Degree Programs.Designer.cs">
-      <DependentUpon>View Degree Programs.cs</DependentUpon>
-    </Compile>
     <Compile Include="View Student Info.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -228,6 +216,9 @@
     <EmbeddedResource Include="Admin Panel.resx">
       <DependentUpon>Admin Panel.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Architecture.resx">
+      <DependentUpon>Architecture.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Contact Form.resx">
       <DependentUpon>Contact Form.cs</DependentUpon>
     </EmbeddedResource>
@@ -236,9 +227,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Edit Student Info.resx">
       <DependentUpon>Edit Student Info.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
@@ -256,9 +244,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="User Login.resx">
       <DependentUpon>User Login.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="View Degree Programs.resx">
-      <DependentUpon>View Degree Programs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View Student Info.resx">
       <DependentUpon>View Student Info.cs</DependentUpon>
@@ -370,6 +355,7 @@
     <None Include="Resources\angle-small-left %281%29.png" />
     <None Include="Resources\angle-small-left1.png" />
     <None Include="Resources\angle-small-left %282%29.png" />
+    <None Include="Resources\angle-small-left %282%291.png" />
     <Content Include="Resources\Home\Group 1 %2812%29.png" />
     <Content Include="Resources\Home\Group 1 %2813%29.png" />
     <Content Include="Resources\Home\Group 1 %2814%29.png" />

@@ -113,6 +113,7 @@ namespace Student_Management_System
             return dt;
         }
 
+
         //Insert statement
         public void InsertStudentDetails(string FirstName, string LastName, string NIC, DateTime DOB, string Address, string Contact, string Nationality, string Degree, string Specialization, string Year, string Semester, string Registered_Date, string Username, string Password)
 
@@ -133,7 +134,6 @@ namespace Student_Management_System
         {
             throw new NotImplementedException();
         }
-
 
         //___SPECIALIZATION TABLE___ 
         //Insert statement for Specialization Table
@@ -203,7 +203,6 @@ namespace Student_Management_System
             }
             return dt;
         }
-
 
         //___MODULES TABLE___  
         //Insert statement for Modules Table

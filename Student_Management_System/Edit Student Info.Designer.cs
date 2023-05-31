@@ -57,6 +57,8 @@ namespace Student_Management_System
             this.txt_Sem = new System.Windows.Forms.TextBox();
             this.btn_Update = new System.Windows.Forms.Button();
             this.btn_Delete = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // cmb_SNo
@@ -333,12 +335,24 @@ namespace Student_Management_System
             this.btn_Delete.UseVisualStyleBackColor = true;
             this.btn_Delete.Click += new System.EventHandler(this.btn_Delete_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImage = global::Student_Management_System.Properties.Resources.angle_small_left__2_1;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 21);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(31, 32);
+            this.pictureBox1.TabIndex = 30;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // Edit_Student_Info
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Student_Management_System.Properties.Resources.Group_1__3_1;
             this.ClientSize = new System.Drawing.Size(1019, 426);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btn_Delete);
             this.Controls.Add(this.btn_Update);
             this.Controls.Add(this.txt_Sem);
@@ -372,6 +386,7 @@ namespace Student_Management_System
             this.Name = "Edit_Student_Info";
             this.Text = "Edit_Student_Info";
             this.Load += new System.EventHandler(this.Edit_Student_Info_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -407,5 +422,6 @@ namespace Student_Management_System
         private System.Windows.Forms.TextBox txt_Sem;
         private System.Windows.Forms.Button btn_Update;
         private System.Windows.Forms.Button btn_Delete;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

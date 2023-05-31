@@ -145,5 +145,10 @@ namespace Student_Management_System
         {
            /* txt_RegDate.Text = DateTime.Now.ToString("dddd , MMM dd yyyy");*/
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

@@ -26,6 +26,16 @@ namespace Student_Management_System
             lbl_Username.Text = "Hii.. " + (userName);
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+/*        public Home()
+        {
+            InitializeComponent();
+        }
+*/
+
+
         private void Home_Load(object sender, EventArgs e)
         {
             //images slideshow with the timer set to 4500

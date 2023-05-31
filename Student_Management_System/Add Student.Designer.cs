@@ -29,6 +29,7 @@ namespace Student_Management_System
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Add_Student));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txt_Fname = new System.Windows.Forms.TextBox();
@@ -64,6 +65,8 @@ namespace Student_Management_System
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.Tot_D_Price = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -409,12 +412,23 @@ namespace Student_Management_System
             this.Tot_D_Price.TabIndex = 21;
             this.Tot_D_Price.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Tot_D_Price_KeyDown);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.Location = new System.Drawing.Point(23, 21);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(35, 31);
+            this.pictureBox1.TabIndex = 35;
+            this.pictureBox1.TabStop = false;
+            // 
             // Add_Student
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Student_Management_System.Properties.Resources.Group_1__3_;
             this.ClientSize = new System.Drawing.Size(944, 551);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.Tot_D_Price);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.label16);
@@ -454,6 +468,7 @@ namespace Student_Management_System
             this.Name = "Add_Student";
             this.Text = "Add_Student";
             this.Load += new System.EventHandler(this.Add_Student_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -496,5 +511,6 @@ namespace Student_Management_System
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.TextBox Tot_D_Price;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
