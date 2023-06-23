@@ -15,7 +15,7 @@ namespace Student_Management_System
         public string connectionString = @"Data Source=NGHQ-IT-028\MSSQLSERVER2012;Initial Catalog=Student_Database;User ID=sa;Password=";
                 public string Student_Name { get; private set; }
         public string Student_No { get; private set; }
-
+         
         private void Initialize()
         {
 

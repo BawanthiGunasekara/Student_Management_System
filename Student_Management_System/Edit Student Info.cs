@@ -148,7 +148,10 @@ namespace Student_Management_System
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            
+            //Open form View_Student_Info
+            this.Hide();
+            View_Student_Info form3 = new View_Student_Info();
+            form3.Show();
         }
     }
 }

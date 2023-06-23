@@ -29,10 +29,18 @@ namespace Student_Management_System
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // Computing
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1034, 621);
+            this.Name = "Computing";
             this.Text = "Computing";
+            this.Load += new System.EventHandler(this.Computing_Load);
+            this.ResumeLayout(false);
+
         }
 
         #endregion

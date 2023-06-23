@@ -208,6 +208,7 @@ namespace Student_Management_System
             this.Controls.Add(this.pic_TimePeriod);
             this.Controls.Add(this.pic_Payment);
             this.Name = "Add_Degree";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Add_Degree";
             this.Load += new System.EventHandler(this.Add_Degree_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pic_DType)).EndInit();

@@ -44,7 +44,7 @@ namespace Student_Management_System
             // 
             // txt_Fname
             // 
-            this.txt_Fname.Location = new System.Drawing.Point(128, 155);
+            this.txt_Fname.Location = new System.Drawing.Point(128, 153);
             this.txt_Fname.Name = "txt_Fname";
             this.txt_Fname.Size = new System.Drawing.Size(215, 20);
             this.txt_Fname.TabIndex = 0;
@@ -162,6 +162,7 @@ namespace Student_Management_System
             this.Controls.Add(this.txt_Lname);
             this.Controls.Add(this.txt_Fname);
             this.Name = "Add_Lecturer";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Add_Lecturer";
             this.Load += new System.EventHandler(this.Add_Lecturer_Load);
             this.ResumeLayout(false);

@@ -16,5 +16,10 @@ namespace Student_Management_System
         {
             InitializeComponent();
         }
+
+        private void Computing_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -33,6 +33,9 @@ namespace Student_Management_System
             this.degreeProgramesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.registeredCoursesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.studentManagementToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.degreesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.contactUsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lbl_Username = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pic_Computing = new System.Windows.Forms.PictureBox();
@@ -52,9 +55,6 @@ namespace Student_Management_System
             this.label3 = new System.Windows.Forms.Label();
             this.pic_Head = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.studentManagementToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.degreesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.contactUsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Computing)).BeginInit();
@@ -98,6 +98,25 @@ namespace Student_Management_System
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
+            // 
+            // studentManagementToolStripMenuItem
+            // 
+            this.studentManagementToolStripMenuItem.Name = "studentManagementToolStripMenuItem";
+            this.studentManagementToolStripMenuItem.Size = new System.Drawing.Size(104, 25);
+            this.studentManagementToolStripMenuItem.Text = "My Courses";
+            this.studentManagementToolStripMenuItem.Click += new System.EventHandler(this.studentManagementToolStripMenuItem_Click);
+            // 
+            // degreesToolStripMenuItem
+            // 
+            this.degreesToolStripMenuItem.Name = "degreesToolStripMenuItem";
+            this.degreesToolStripMenuItem.Size = new System.Drawing.Size(79, 25);
+            this.degreesToolStripMenuItem.Text = "Degrees";
+            // 
+            // contactUsToolStripMenuItem
+            // 
+            this.contactUsToolStripMenuItem.Name = "contactUsToolStripMenuItem";
+            this.contactUsToolStripMenuItem.Size = new System.Drawing.Size(97, 25);
+            this.contactUsToolStripMenuItem.Text = "Contact Us";
             // 
             // lbl_Username
             // 
@@ -330,30 +349,11 @@ namespace Student_Management_System
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.Gainsboro;
+            this.panel2.BackColor = System.Drawing.Color.White;
             this.panel2.Location = new System.Drawing.Point(0, 535);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(855, 39);
             this.panel2.TabIndex = 9;
-            // 
-            // studentManagementToolStripMenuItem
-            // 
-            this.studentManagementToolStripMenuItem.Name = "studentManagementToolStripMenuItem";
-            this.studentManagementToolStripMenuItem.Size = new System.Drawing.Size(104, 25);
-            this.studentManagementToolStripMenuItem.Text = "My Courses";
-            this.studentManagementToolStripMenuItem.Click += new System.EventHandler(this.studentManagementToolStripMenuItem_Click);
-            // 
-            // degreesToolStripMenuItem
-            // 
-            this.degreesToolStripMenuItem.Name = "degreesToolStripMenuItem";
-            this.degreesToolStripMenuItem.Size = new System.Drawing.Size(79, 25);
-            this.degreesToolStripMenuItem.Text = "Degrees";
-            // 
-            // contactUsToolStripMenuItem
-            // 
-            this.contactUsToolStripMenuItem.Name = "contactUsToolStripMenuItem";
-            this.contactUsToolStripMenuItem.Size = new System.Drawing.Size(97, 25);
-            this.contactUsToolStripMenuItem.Text = "Contact Us";
             // 
             // Home
             // 

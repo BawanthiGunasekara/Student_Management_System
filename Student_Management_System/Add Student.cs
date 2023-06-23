@@ -384,5 +384,13 @@ namespace Student_Management_System
         {
 
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            //going back to the directed form
+            this.Hide();
+            View_Student_Info form3 = new View_Student_Info();
+            form3.Show();
+        }
     }
 }

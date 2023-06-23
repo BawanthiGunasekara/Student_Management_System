@@ -134,6 +134,12 @@
     <Compile Include="Engineering.Designer.cs">
       <DependentUpon>Engineering.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -145,12 +151,6 @@
     </Compile>
     <Compile Include="Humanities and Sciences.Designer.cs">
       <DependentUpon>Humanities and Sciences.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Inquiries.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Inquiries.Designer.cs">
-      <DependentUpon>Inquiries.cs</DependentUpon>
     </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
@@ -219,6 +219,9 @@
     <EmbeddedResource Include="Architecture.resx">
       <DependentUpon>Architecture.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Computing.resx">
+      <DependentUpon>Computing.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Contact Form.resx">
       <DependentUpon>Contact Form.cs</DependentUpon>
     </EmbeddedResource>
@@ -227,6 +230,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Edit Student Info.resx">
       <DependentUpon>Edit Student Info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
@@ -328,6 +334,16 @@
     <None Include="Resources\f1.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\user %286%29.png" />
+    <None Include="Resources\user %285%29.png" />
+    <None Include="Resources\user %284%29.png" />
+    <None Include="Resources\user %283%29.png" />
+    <None Include="Resources\user %282%29.png" />
+    <None Include="Resources\user %281%29.png" />
+    <None Include="Resources\user.png" />
+    <None Include="Resources\notification1.png" />
+    <None Include="Resources\notification.png" />
+    <None Include="Resources\Rectangle 3 %284%29.png" />
     <None Include="Resources\images-_4_1.png" />
     <None Include="Resources\images-_4_.png" />
     <None Include="Resources\vivid-blurred-colorful-background_58702-2563.png" />
@@ -356,6 +372,7 @@
     <None Include="Resources\angle-small-left1.png" />
     <None Include="Resources\angle-small-left %282%29.png" />
     <None Include="Resources\angle-small-left %282%291.png" />
+    <None Include="Resources\gear.png" />
     <Content Include="Resources\Home\Group 1 %2812%29.png" />
     <Content Include="Resources\Home\Group 1 %2813%29.png" />
     <Content Include="Resources\Home\Group 1 %2814%29.png" />

@@ -35,7 +35,6 @@ namespace Student_Management_System
         }
 */
 
-
         private void Home_Load(object sender, EventArgs e)
         {
             //images slideshow with the timer set to 4500

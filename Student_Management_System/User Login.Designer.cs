@@ -87,7 +87,7 @@ namespace Student_Management_System
             // 
             this.pnl_Sign_In.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.pnl_Sign_In.Controls.Add(this.lbl_Sign_In);
-            this.pnl_Sign_In.Location = new System.Drawing.Point(555, 370);
+            this.pnl_Sign_In.Location = new System.Drawing.Point(556, 370);
             this.pnl_Sign_In.Name = "pnl_Sign_In";
             this.pnl_Sign_In.Size = new System.Drawing.Size(247, 36);
             this.pnl_Sign_In.TabIndex = 19;
@@ -99,7 +99,7 @@ namespace Student_Management_System
             this.lbl_Sign_In.AutoSize = true;
             this.lbl_Sign_In.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Sign_In.ForeColor = System.Drawing.Color.White;
-            this.lbl_Sign_In.Location = new System.Drawing.Point(77, 5);
+            this.lbl_Sign_In.Location = new System.Drawing.Point(74, 5);
             this.lbl_Sign_In.Name = "lbl_Sign_In";
             this.lbl_Sign_In.Size = new System.Drawing.Size(85, 25);
             this.lbl_Sign_In.TabIndex = 0;

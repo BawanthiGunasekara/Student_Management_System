@@ -24,5 +24,10 @@ namespace Student_Management_System
             Admin_Panel admin = new Admin_Panel();
             admin.Show();
         }
+
+        private void Admin_Panel_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

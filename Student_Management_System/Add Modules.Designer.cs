@@ -222,6 +222,7 @@ namespace Student_Management_System
             this.Controls.Add(this.cmb_Specialization);
             this.Controls.Add(this.cmb_Degree);
             this.Name = "Add_Modules";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Add_Modules";
             this.Load += new System.EventHandler(this.Add_Modules_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dtGrid_Modules)).EndInit();
